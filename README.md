@@ -1,0 +1,1 @@
+Start this app by: git remote add origin git@github.com:nikitavyas/NamasteReact.git
