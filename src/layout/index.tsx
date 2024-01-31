@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import {  Layout, Menu, theme } from 'antd';
 const { Header, Content, Footer } = Layout;
 
 const MainLayout = () => {
@@ -37,7 +37,7 @@ const MainLayout = () => {
         </div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>
-        Ant Design ©{new Date().getFullYear()} Created by Ant UED
+        Learn with Nikita Thaker ©{new Date().getFullYear()}
       </Footer>
     </Layout>
   )
